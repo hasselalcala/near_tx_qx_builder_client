@@ -1,0 +1,10 @@
+[package]
+name = "tx_builder_client"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+near_tx_qx_builder = { path = "../near_tx_qx_builder" }
+tokio = { version = "1.41.1", features = ["full"] }
+serde_json = "1.0"
+dotenv = "0.15.0"
